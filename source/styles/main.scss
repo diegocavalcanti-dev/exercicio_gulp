@@ -1,0 +1,11 @@
+@use 'variaveis';
+
+body {
+    background: variaveis.$cor-principal;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    font-weight: normal;
+}
