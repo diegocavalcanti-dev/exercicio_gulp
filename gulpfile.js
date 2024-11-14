@@ -20,7 +20,7 @@ function comprimeImagens() {
     return gulp.src('./source/images/*')
     .pipe(imagemin())
     .pipe(gulp.dest('./build/images'));
-}
+} 
 
 // 3 - COMPILAÇÃO DO JAVASCRIPT
 function comprimeJavaScript() {
